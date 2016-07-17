@@ -23,7 +23,7 @@ h6 {
   font-weight: bold;
 }
 
-header {
-  margin: 0;
-  padding: 0;
+.welcome {
+  margin-top: 50px;
+  filter: brightness(0.8);
 }
