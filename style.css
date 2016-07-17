@@ -31,3 +31,22 @@ h6 {
 h5 {
   font-weight: bold;
 }
+
+button {
+  background-color: #006671;
+  border: 1px #006671 solid;
+  width: 280px;
+  height: 40px;
+}
+
+button:hover {
+  background-color: #009aab;
+}
+
+body {
+  background-color: #EDEFED;
+}
+
+h2 {
+  text-align: center;
+}
