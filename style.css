@@ -35,7 +35,6 @@ h6 {
 
 .carou2 {
   font-weight: bold;
-  
 }
 
 button {
@@ -68,8 +67,14 @@ h2 {
   margin-bottom: 30px;
 }
 
-.h2 {
-  font-weight: bold;
-  font-size: 30px;
-  text-align: center;
+.carou3 {
+  margin-bottom: 50%;
+}
+
+.carou4 {
+  margin-bottom: 50%;
+}
+
+.bruxelles {
+  margin-top: 0;
 }
