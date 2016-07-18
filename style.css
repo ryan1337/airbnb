@@ -26,7 +26,7 @@ h6 {
 .welcome {
   margin-top: 40px;
   filter: brightness(0.6);
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 
 h5 {
@@ -44,9 +44,6 @@ button:hover {
   background-color: #009aab;
 }
 
-body {
-  background-color: #EDEFED;
-}
 
 h2 {
   text-align: center;
@@ -54,9 +51,14 @@ h2 {
   font-size: 30px;
 }
 
+.week {
+  background-color: #EDEFED;
+  padding-top: 40px;
+}
+
 .text-lead {
   font-size: 16px;
   text-align: center;
-  margin-top: 0;
-  margin-bottom: 15px;
+  margin: 0;
+  margin-bottom: 30px;
 }
