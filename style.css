@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .row  {
   display: flex;
   flex-direction: column;
@@ -29,8 +33,9 @@ h6 {
   margin-bottom: 0px;
 }
 
-h5 {
+.carou2 {
   font-weight: bold;
+  
 }
 
 button {
@@ -64,5 +69,7 @@ h2 {
 }
 
 .h2 {
-
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
 }
