@@ -2,13 +2,18 @@
   box-sizing: border-box;
 }
 
+
+.navbar {
+  display: none;
+}
+
 .row  {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-img {
+.logobnb {
   align-self: center;
   margin-top: 8px;
   margin-bottom: 8px;
@@ -75,6 +80,62 @@ h2 {
   margin-bottom: 50%;
 }
 
-.bruxelles {
-  margin-top: 0;
+.carou5 {
+  margin-bottom: 10%;
+}
+
+
+.contentfooter {
+    padding: 48px 0;
+    background-image: url(https://a0.muscache.com/airbnb/static/footer/background-317dd7c2cb678ddbdb0a983d511cb9a0.png);
+    background-color: #2b2d2e;
+    color: #fff;
+  }
+
+  .contentfooter select {
+    background-color: #484848;
+    border: 0;
+    color: #fff;
+    border: 0;
+  }
+
+  footer label {
+    width: 100%;
+  }
+
+  footer select {
+      background-color: #484848;
+      color: #fff;
+      border: 0;
+      padding: 10px 0 10px 0;
+      font-weight: bold;
+      min-width: 100
+    }
+
+.contentfooter {
+  display: flex;
+  flex-direction:  column;
+  flex-wrap: wrap;
+}
+
+#country {
+  flex-grow: ;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .logobnb {
+    display: none;
+  }
+
+  .flexb {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .navbar {
+    display: block;
+  }
+
+
 }
